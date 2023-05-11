@@ -29,11 +29,7 @@ a {
 }
 
 .dark * {
-  background-color: black;
-}
-
-.dark #home {
-  background-color: black;
+  background-color: black !important;
 }
 
 .dark * {
@@ -484,4 +480,106 @@ header {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+.clients__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+  text-align: center;
+}
+.clients__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343D;
+  text-align: center;
+}
+.clients__card {
+  padding-top: 50px;
+  padding-bottom: 157px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+.clients__card__item {
+  max-width: 327px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+.clients__card__item img {
+  padding-top: 28px;
+  padding-left: 26px;
+}
+.clients__card__item p {
+  padding: 16px 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.clients__card__info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.clients__card__info img {
+  padding-bottom: 20px;
+}
+.clients__card__info .info__text h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+}
+.clients__card__info .info__text h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+#join {
+  padding-left: 150px;
+}
+
+.join {
+  max-width: 968px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  background: #02897A;
+  border-radius: 32px;
+}
+.join__left__title {
+  padding-top: 49px;
+  padding-left: 51px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151.4%;
+  color: #FFFFFF;
+}
+.join__left__btn {
+  padding-top: 70px;
+  padding-left: 51px;
+}
+.join__left__btn button {
+  padding: 12px 35px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #02897A;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 8px;
 }

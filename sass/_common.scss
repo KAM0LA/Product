@@ -26,12 +26,9 @@ a{
 }
 
 .dark * {
-    background-color: black;
+    background-color: black !important;
    }
-   .dark #home{
-    background-color: black;
-   }
-   
+
    .dark * {
      color: white !important;
    }
